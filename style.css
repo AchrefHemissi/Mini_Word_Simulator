@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(132, 128, 249);
+    background: linear-gradient(to right, rgb(183, 187, 238), rgb(144, 128, 249));
+}
+
+#option{
+    background-color: rgb(163, 143, 218);
+    width: 50%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#paragraph{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    resize: none;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+input{
+    width: 166px;
+
+    
+}
+#container{
+    height: 1000px;
+    width: 600px;
+    
+}
